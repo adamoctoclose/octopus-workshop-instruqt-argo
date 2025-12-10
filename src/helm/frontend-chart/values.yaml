@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: #{Project.Replica.Sets}
 
 image:
   repository: ghcr.io/adamoctoclose/sample.frontend
